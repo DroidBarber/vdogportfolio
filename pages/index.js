@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoLinkedin, IoLogoGithub, IoLogoTwitter } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -156,6 +156,18 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+          <ListItem>
+            <Link href="https://twitter.com/GLOBTECHY" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}
+              >
+                @𝖒𝖊𝖍𝖉𝖎
+              </Button>
+            </Link>
+          </ListItem>
+
         </List>
       </Section>
     </Container>
