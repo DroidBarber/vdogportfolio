@@ -101,7 +101,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Master&apos;s program at EPITECH - European Institute of Technology
+          Started Master&apos;s program at EPITECH - European Institute of Technology
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
