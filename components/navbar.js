@@ -79,7 +79,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href=""
+            href="https://github.com/DroidBarber/vdogportfolio"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -103,7 +103,7 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
+                <NextLink href="https://github.com/DroidBarber/vdogportfolio" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
