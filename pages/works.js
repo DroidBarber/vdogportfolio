@@ -8,6 +8,8 @@ import thumbKrypt from '../public/images/works/krypt.jpg'
 import thumbCvid from '../public/images/works/cvid.jpg'
 import thumbCo4sat from '../public/images/works/trains.jpg'
 import thumbKom from '../public/images/works/kom.png'
+import thumbTwitter from '../public/images/works/twitter.jpg'
+
 
 const Works = () => (
   <Layout title="Works">
@@ -41,7 +43,12 @@ const Works = () => (
                     </Section>
               <Section delay={0.1}>
                   <WorkGridItem id="co4sat" thumbnail={thumbCo4sat} title="Co4sat">
-                      Development and implementation of a system for monitoring trains, triggering and managing alerts in the event of   a danger situation for SNCF train drivers.
+                      Development and implementation of a system for monitoring trains, triggering and managing alerts in the event of a danger situation for SNCF train conductors.
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.1}>
+                  <WorkGridItem id="twitterbot" thumbnail={thumbTwitter} title="AI Twitter Bot">
+                    GPT-3 Powered Twitter Bot made with Node.js, OAuth 2.0 & Firebase
                   </WorkGridItem>
               </Section>
            </SimpleGrid>

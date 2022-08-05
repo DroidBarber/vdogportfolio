@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="classVR">
     <Container>
       <Title>
-        classVR <Badge>2021</Badge>
+        classVR <Badge>2020-2021</Badge>
       </Title>
       <P>
       Virtual reality project for the Oculus Quest for the purpose of creating a functional class in vr developed with Unity in partnership with the Center for Research and Virtual Simulation in Health at the University of Limoges.
