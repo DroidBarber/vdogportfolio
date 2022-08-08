@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoLinkedin, IoLogoGithub, IoLogoTwitter } from 'react-icons/io5'
+import { IoLogoLinkedin, IoLogoGithub, IoLogoTwitter, IoLogoBehance } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -141,7 +141,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @DroidBarber
+                Github
               </Button>
             </Link>
           </ListItem>
@@ -152,7 +152,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoLinkedin />}
               >
-                Mehdi
+                LinkedIn
               </Button>
             </Link>
           </ListItem>
@@ -163,7 +163,18 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @𝖒𝖊𝖍𝖉𝖎
+                Twiter
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.behance.net/droidbarber" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoBehance />}
+              >
+                Behance
               </Button>
             </Link>
           </ListItem>
