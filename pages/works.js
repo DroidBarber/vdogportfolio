@@ -34,6 +34,16 @@ const Works = () => (
                   </WorkGridItem>
               </Section>
               <Section delay={0.1}>
+                  <WorkGridItem id="findx" thumbnail={thumbFindx} title="FindX">
+                    Search engine app built with React.JS and TailwindCSS
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.1}>
+                  <WorkGridItem id="jstrader" thumbnail={thumbJStrader} title="Trade Stocks with JS">
+                    Trade stocks automatically with JavaScript code using Alpaca and GPT-3.
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.1}>
                   <WorkGridItem
                      id="covid19"
                      title="covid-tracker"
@@ -45,16 +55,6 @@ const Works = () => (
               <Section delay={0.1}>
                   <WorkGridItem id="co4sat" thumbnail={thumbCo4sat} title="Co4sat">
                       Development and implementation of a system for monitoring trains, triggering and managing alerts in the event of a danger situation for SNCF train conductors.
-                  </WorkGridItem>
-              </Section>
-              <Section delay={0.1}>
-                  <WorkGridItem id="twitterbot" thumbnail={thumbFindx} title="FindX">
-                    Search engine app built with React.js and Tailwindcss
-                  </WorkGridItem>
-              </Section>
-              <Section delay={0.1}>
-                  <WorkGridItem id="jstrader" thumbnail={thumbJStrader} title="Trade Stocks with JS">
-                    Trade stocks automatically with JavaScript code using Alpaca and GPT-3.
                   </WorkGridItem>
               </Section>
            </SimpleGrid>

@@ -18,13 +18,13 @@ const Work = () => (
         classVR <Badge>2020-2021</Badge>
       </Title>
       <P>
-      Virtual reality project for the Oculus Quest for the purpose of creating a functional class in vr developed with Unity in partnership with the Center for Research and Virtual Simulation in Health at the University of Limoges.
+      Virtual reality project for the Oculus Quest for the purpose of creating a fully functional class in VR with a Whiteboard, complete hand tracking and Multiplayer developed with Unity in partnership with the Center for Research and Virtual Health Simulation at the University of Limoges.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Link</Meta>
           <Link href="https://github.com/DroidBarber/ProjetCoursVirtuel">
-            github.com/DroidBarber/ProjetCoursVirtuel <ExternalLinkIcon mx="2px" />
+            ProjetCoursVirtuel <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

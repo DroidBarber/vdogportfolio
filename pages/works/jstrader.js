@@ -31,7 +31,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>PLatform</Meta>
-          <span>Web</span>
+          <span>Firebase</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
@@ -63,6 +63,7 @@ const Work = () => (
           </Link>
         </ListItem>
       </UnorderedList>
+      <WorkImage src="/images/works/jstrader2.png" />
       <WorkImage src="/images/works/jstrader.png" />
     </Container>
   </Layout>

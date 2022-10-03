@@ -11,7 +11,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="twitterbot">
+  <Layout title="findx">
     <Container>
       <Title>
         FindX <Badge>2021</Badge>
@@ -36,6 +36,7 @@ const Work = () => (
         </ListItem>
       </List>
       <WorkImage src="/images/works/findx1.png" alt="search" />
+      <WorkImage src="/images/works/findx3.png" alt="search" />
       <WorkImage src="/images/works/findx2.png" alt="search" />
     </Container>
   </Layout>
