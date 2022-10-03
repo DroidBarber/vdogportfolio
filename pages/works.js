@@ -8,7 +8,7 @@ import thumbKrypt from '../public/images/works/krypt.jpg'
 import thumbCvid from '../public/images/works/cvid.jpg'
 import thumbCo4sat from '../public/images/works/trains.jpg'
 import thumbKom from '../public/images/works/kom.png'
-import thumbFindx from '../public/images/works/findx.jpg'
+import thumbFindx from '../public/images/works/findx.png'
 import thumbJStrader from '../public/images/works/jstrader.png'
 
 
