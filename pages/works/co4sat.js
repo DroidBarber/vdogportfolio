@@ -26,7 +26,7 @@ import {
                 <ListItem>
                     <Meta>Link</Meta>
                     <Link href="https://github.com/DroidBarber/Co4Sat">
-                    github.com/DroidBarber/Co4Sat <ExternalLinkIcon mx="2px" />
+                    Co4Sat <ExternalLinkIcon mx="2px" />
                     </Link>
                 </ListItem>
                 <ListItem>

@@ -8,7 +8,8 @@ import thumbKrypt from '../public/images/works/krypt.jpg'
 import thumbCvid from '../public/images/works/cvid.jpg'
 import thumbCo4sat from '../public/images/works/trains.jpg'
 import thumbKom from '../public/images/works/kom.png'
-import thumbTwitter from '../public/images/works/twitter.jpg'
+import thumbFindx from '../public/images/works/findx.jpg'
+import thumbJStrader from '../public/images/works/jstrader.png'
 
 
 const Works = () => (
@@ -47,8 +48,13 @@ const Works = () => (
                   </WorkGridItem>
               </Section>
               <Section delay={0.1}>
-                  <WorkGridItem id="twitterbot" thumbnail={thumbTwitter} title="AI Twitter Bot">
-                    GPT-3 Powered Twitter Bot made with Node.js, OAuth 2.0 & Firebase
+                  <WorkGridItem id="twitterbot" thumbnail={thumbFindx} title="FindX">
+                    Search engine app built with React.js and Tailwindcss
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.1}>
+                  <WorkGridItem id="jstrader" thumbnail={thumbJStrader} title="Trade Stocks with JS">
+                    Trade stocks automatically with JavaScript code using Alpaca and GPT-3.
                   </WorkGridItem>
               </Section>
            </SimpleGrid>
