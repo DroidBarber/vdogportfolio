@@ -20,7 +20,7 @@ const Work = () => (
         JS Trader <Badge>2022</Badge>
       </Title>
       <P>
-      A scheduled Firebase Cloud Function that uses OpenAIs GPT-3 model to predict the stock picks of Jim Cramer, then makes trades with Alpaca API.
+      A scheduled Firebase Cloud Function that uses OpenAIs GPT-3 model to predict the stock picks of {' '}<Link href="https://twitter.com/jimcramer" target="_blank">Jim Cramer</Link>, then makes trades with Alpaca API.
       </P>
       <List ml={4} my={4}>
         <ListItem>
