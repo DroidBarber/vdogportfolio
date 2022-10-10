@@ -45,7 +45,7 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-          <Link href="openai.com">
+          <Link href="https://beta.openai.com/playground">
             <Badge mr={2}>OpenAI GPT-3</Badge>
             <ExternalLinkIcon mx="2px" />
           </Link>
