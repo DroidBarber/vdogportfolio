@@ -23,7 +23,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Link</Meta>
-          <Link href="https://github.com/DroidBarber/ProjetCoursVirtuel">
+          <Link href="https://github.com/DroidBarber/ProjetCoursVirtuel" target="_blank">
             ProjetCoursVirtuel <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

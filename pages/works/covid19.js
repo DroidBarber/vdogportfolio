@@ -22,7 +22,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://stonebraker-2debbf.netlify.app/">
+          <Link href="https://stonebraker-2debbf.netlify.app/" target="_blank">
             www.covid19-tracker.com <ExternalLinkIcon mx="2px"/>
           </Link>
         </ListItem>

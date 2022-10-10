@@ -45,19 +45,19 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-          <Link href="https://beta.openai.com/playground">
+          <Link href="https://beta.openai.com/playground" target="_blank">
             <Badge mr={2}>OpenAI GPT-3</Badge>
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="https://alpaca.markets/">
+          <Link href="https://alpaca.markets/" target="_blank">
             <Badge mr={2}>Alpaca Trading API</Badge>
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp">
+          <Link href="https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp" target="_blank">
             <Badge mr={2}>Algo Trading Explained</Badge>
             <ExternalLinkIcon mx="2px" />
           </Link>

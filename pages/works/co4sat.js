@@ -25,7 +25,7 @@ import {
             <List ml={4} my={4}>
                 <ListItem>
                     <Meta>Link</Meta>
-                    <Link href="https://github.com/DroidBarber/Co4Sat">
+                    <Link href="https://github.com/DroidBarber/Co4Sat" target="_blank">
                     Co4Sat <ExternalLinkIcon mx="2px" />
                     </Link>
                 </ListItem>
@@ -45,7 +45,7 @@ import {
 
             <UnorderedList my={4}>
                <ListItem>
-                  <Link href="https://www.railjournal.com/regions/europe/   sncf-launches-iot-based-train-and-track-remote-monitoring/">
+                  <Link href="https://www.railjournal.com/regions/europe/   sncf-launches-iot-based-train-and-track-remote-monitoring/" target="_blank">
                      <Badge mr={2}>railjournal</Badge>
                      SNCF launches IoT-based train and track remote monitoring
                      <ExternalLinkIcon mx="2px" />

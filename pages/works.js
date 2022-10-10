@@ -49,7 +49,7 @@ const Works = () => (
                      title="covid-tracker"
                      thumbnail={thumbCvid}
                    >
-                      Simple Covid Tracker App built with Vue.js & Tailwind powered by https://covid19api.com
+                      Simple Covid Tracker App built with Vue.js & Tailwind powered by covid19api.com
                    </WorkGridItem>
                     </Section>
               <Section delay={0.1}>
