@@ -163,7 +163,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                Twiter
+                Twitter
               </Button>
             </Link>
           </ListItem>
