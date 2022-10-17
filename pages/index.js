@@ -104,11 +104,11 @@ const Home = () => (
           Started Master&apos;s program at EPITECH - European Institute of Technology
         </BioSection>
         <BioSection>
-          <BioYear>2022 to present</BioYear>
-          Apprenticeship at{' '}
+          <BioYear>2021 to present</BioYear>
+          Frontend Developer at{' '}
            <Link href="https://weborama.com/en/" target="_blank">
             Weborama
-           </Link> (France)
+           </Link> (Paris, France)
         </BioSection>
       </Section>
 
