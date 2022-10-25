@@ -17,7 +17,7 @@ const Work = () => (
         Covid 19 Tracker <Badge>2020</Badge>
       </Title>
       <P>
-        Simple Covid Stats tracking web app made with only Vue.js & Tailwind powered by covid19api.com
+        Simple Covid Stats tracking Web app made with Vue.js & TailwindCSS powered by covid19api.com
       </P>
       <List ml={4} my={4}>
         <ListItem>
