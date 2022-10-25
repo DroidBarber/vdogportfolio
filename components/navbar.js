@@ -103,7 +103,7 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="https://github.com/DroidBarber/vdogportfolio" passHref>
+                <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
@@ -114,7 +114,9 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href=""
+                    href="https://github.com/DroidBarber/vdogportfolio"
+                    passHref
+                    target="_blank"
                 >
                   View Source
                 </MenuItem>
