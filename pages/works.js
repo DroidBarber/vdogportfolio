@@ -71,7 +71,7 @@ const Works = () => (
           <SimpleGrid columns={[1, 1, 2]} gap={6}>
               <Section delay={0.3}>
                   <WorkGridItem id="kom" thumbnail={thumbKom} title="Kind of Magic">
-                  A Magic the Gathering application for making and managing decks with different formats in an easy and fluid way. made for the players and the developers.
+                  A Magic the Gathering application for making and managing decks with different formats in an easy and fluid way. made for the players and developers.
                   </WorkGridItem>
               </Section>
           </SimpleGrid>
