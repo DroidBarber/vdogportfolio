@@ -10,6 +10,7 @@ import thumbCo4sat from '../public/images/works/trains.jpg'
 import thumbKom from '../public/images/works/kom.png'
 import thumbFindx from '../public/images/works/findx.png'
 import thumbJStrader from '../public/images/works/jstrader.png'
+import thumbAiGen from '../public/images/works/genai.png'
 
 
 const Works = () => (
@@ -72,6 +73,11 @@ const Works = () => (
               <Section delay={0.3}>
                   <WorkGridItem id="kom" thumbnail={thumbKom} title="Kind of Magic">
                   A Magic the Gathering application for making and managing decks with different formats in an easy and fluid way. made for the players and developers.
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.3}>
+                  <WorkGridItem id="aigen" thumbnail={thumbAiGen} title="Ai Image Generator">
+                  AI Image Generator made with OpenAI DALL-E model and NodeJS that generates images from scratch based on the entered text.
                   </WorkGridItem>
               </Section>
           </SimpleGrid>
