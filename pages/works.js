@@ -6,7 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbOculus from '../public/images/works/oculus.jpg'
 import thumbKrypt from '../public/images/works/krypt.jpg'
 import thumbCvid from '../public/images/works/cvid.jpg'
-import thumbCo4sat from '../public/images/works/trains.jpg'
+import thumbCrwd from '../public/images/works/crowdfund.png'
 import thumbKom from '../public/images/works/kom.png'
 import thumbFindx from '../public/images/works/findx.png'
 import thumbJStrader from '../public/images/works/jstrader.png'
@@ -54,8 +54,8 @@ const Works = () => (
                    </WorkGridItem>
                     </Section>
               <Section delay={0.1}>
-                  <WorkGridItem id="co4sat" thumbnail={thumbCo4sat} title="Co4sat">
-                      Development and implementation of a system for monitoring trains, triggering and managing alerts in the event of a danger situation for SNCF train conductors.
+                  <WorkGridItem id="crowdfund" thumbnail={thumbCrwd} title="CrowdFunder">
+                    Blockchain Crowdfunding Platform made with ReactJS and Thirdweb
                   </WorkGridItem>
               </Section>
            </SimpleGrid>
