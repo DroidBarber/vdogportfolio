@@ -24,7 +24,7 @@ const Work = () => (
         <ListItem>
           <Meta>Link</Meta>
           <Link href="https://github.com/DroidBarber/ProjetCoursVirtuel" target="_blank">
-            ProjetCoursVirtuel <ExternalLinkIcon mx="2px" />
+            Github <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

@@ -117,15 +117,12 @@ const Home = () => (
             I ♥
           </Heading>
           <Paragraph>
-            Art,{' '}
-           <Link href="" target="_blank">
-              Music,
-           </Link>
+            Chess, Film Theory, Comic Books,
              {' '}
            <Link href="" target="_blank">
               Photography
              </Link>
-             , Leica, Video Games, Machine Learning
+             , Leica
           </Paragraph>
       </Section>
 

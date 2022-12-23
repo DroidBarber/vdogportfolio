@@ -28,7 +28,7 @@ const Work = () => (
         <ListItem>
           <Meta>Link</Meta>
           <Link href="https://elated-khorana-f4ec46.netlify.app/" target="_blank">
-            www.krypt.com <ExternalLinkIcon mx="2px" />
+            krypt <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
