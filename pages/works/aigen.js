@@ -28,7 +28,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Github</Meta>
-          <Link href="https://github.com/DroidBarber/AI-Image-Generator" target="_blank">
+          <Link href="https://github.com/DroidBarber/DALL-EE" target="_blank">
             Link <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
