@@ -14,16 +14,22 @@ const Work = () => (
   <Layout title="aigen">
     <Container>
       <Title>
-        AI Image Generator <Badge>2022</Badge>
+        DALL-EE Image Generator <Badge>2022</Badge>
       </Title>
       <P>
-        an AI Image Generator made with NodeJS based on the OpenAI DALL-E model that generates images from scratch based on the entered text and the selected size.
+        AI Image Generation tools such as MidJourney or DALL-E have taken over social media by creating a wide range of images from memes and art to full ui/ux designs, this technology has the potential to revolutionize industries, in this project we build a fullstack MERN Image generator app with modern and minimal design, dynamic image layout, search function and the ability to create AI generated images by clicking the suprise me button or entering any prompt and finally sharing your creations with the community.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
+          <Link href="https://dall-ee.vercel.app/" target="_blank">
+            DALL-EE  <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Github</Meta>
           <Link href="https://github.com/DroidBarber/AI-Image-Generator" target="_blank">
-            Github <ExternalLinkIcon mx="2px" />
+            Link <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -32,12 +38,13 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>OpenAI API, NodeJS</span>
+          <span>React, Express, MongoDB, NodeJS, Cloudinary, OpenAI</span>
         </ListItem>
       </List>
 
       <WorkImage src="/images/works/aigen1.png" alt="aigen" />
       <WorkImage src="/images/works/aigen2.png" alt="aigen" />
+      <WorkImage src="/images/works/aigen3.png" alt="aigen" />
     </Container>
   </Layout>
 )

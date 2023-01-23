@@ -7,7 +7,7 @@ import thumbOculus from '../public/images/works/oculus.jpg'
 import thumbKrypt from '../public/images/works/krypt.jpg'
 import thumbCvid from '../public/images/works/cvid.jpg'
 import thumbCrwd from '../public/images/works/crowdfund.png'
-import thumbKom from '../public/images/works/kom.png'
+import thumbKom from '../public/images/works/magic.png'
 import thumbFindx from '../public/images/works/findx.png'
 import thumbJStrader from '../public/images/works/jstrader.png'
 import thumbAiGen from '../public/images/works/genai.png'
@@ -76,8 +76,8 @@ const Works = () => (
                   </WorkGridItem>
               </Section>
               <Section delay={0.3}>
-                  <WorkGridItem id="aigen" thumbnail={thumbAiGen} title="Ai Image Generator">
-                  AI Image Generator made with OpenAI DALL-E model and NodeJS that generates images from scratch based on the entered text.
+                  <WorkGridItem id="aigen" thumbnail={thumbAiGen} title="DALL-EE">
+                  AI Image Generator made with OpenAI DALL-E model and MERN stack that generates images based on the entered text.
                   </WorkGridItem>
               </Section>
           </SimpleGrid>
