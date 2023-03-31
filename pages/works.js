@@ -11,6 +11,7 @@ import thumbKom from '../public/images/works/magic.png'
 import thumbFindx from '../public/images/works/findx.png'
 import thumbJStrader from '../public/images/works/jstrader.png'
 import thumbAiGen from '../public/images/works/genai.png'
+import thumbFin from '../public/images/works/financeer.png'
 
 
 const Works = () => (
@@ -41,7 +42,7 @@ const Works = () => (
               </Section>
               <Section delay={0.1}>
                   <WorkGridItem id="jstrader" thumbnail={thumbJStrader} title="Trade Stocks with JS">
-                    Trade stocks automatically with JavaScript code using Alpaca and GPT-3.
+                    Trade stocks automatically with JavaScript code using Alpaca and GPT-3
                   </WorkGridItem>
               </Section>
               <Section delay={0.1}>
@@ -50,12 +51,17 @@ const Works = () => (
                      title="covid-tracker"
                      thumbnail={thumbCvid}
                    >
-                      Simple Covid Tracker App built with Vue.js & Tailwind powered by covid19api.com
+                      Simple Covid Tracker App built with Vue.js & Tailwind powered by covid19api
                    </WorkGridItem>
                     </Section>
               <Section delay={0.1}>
                   <WorkGridItem id="crowdfund" thumbnail={thumbCrwd} title="CrowdFunder">
                     Blockchain Crowdfunding Platform made with ReactJS and Thirdweb
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.1}>
+                  <WorkGridItem id="finance" thumbnail={thumbFin} title="Financeer">
+                    Financial App Dashboard with Machine Learning Predictions
                   </WorkGridItem>
               </Section>
            </SimpleGrid>
