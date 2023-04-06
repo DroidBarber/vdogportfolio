@@ -13,6 +13,7 @@ import thumbJStrader from '../public/images/works/jstrader.png'
 import thumbAiGen from '../public/images/works/genai.png'
 import thumbFin from '../public/images/works/financeer.png'
 import thumb3d from '../public/images/works/3dshow.png'
+import thumbtwtr from '../public/images/works/btrtwtr.png'
 
 
 const Works = () => (
@@ -84,12 +85,17 @@ const Works = () => (
           <SimpleGrid columns={[1, 1, 2]} gap={6}>
               <Section delay={0.3}>
                   <WorkGridItem id="kom" thumbnail={thumbKom} title="Kind of Magic">
-                  A Magic the Gathering application for making and managing decks with different formats in an easy and fluid way. made for the players and developers.
+                    A Magic the Gathering application for making and managing decks with different formats in an easy and fluid way. made for the players and developers.
                   </WorkGridItem>
               </Section>
               <Section delay={0.3}>
                   <WorkGridItem id="aigen" thumbnail={thumbAiGen} title="DALL-EE">
-                  AI Image Generator made with OpenAI DALL-E model and MERN stack that generates images based on the entered text.
+                    AI Image Generator made with OpenAI DALL-E model and MERN stack that generates images based on the entered text.
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.3}>
+                  <WorkGridItem id="bettertwtr" thumbnail={thumbtwtr} title="twttr">
+                    better Tw*tter Clone
                   </WorkGridItem>
               </Section>
           </SimpleGrid>
