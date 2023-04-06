@@ -18,7 +18,7 @@ const Work = () => (
         classVR <Badge>2020-2021</Badge>
       </Title>
       <P>
-      Virtual reality project for the Oculus Quest for the purpose of creating a fully functional class in VR with a Whiteboard, complete hand tracking and Multiplayer developed with Unity in partnership with the Center for Research and Virtual Health Simulation at the University of Limoges.
+      Virtual reality project developped on the Oculus Quest for the purpose of creating a fully functional class in VR with many features such as an interactive Whiteboard, complete hand tracking and full Multiplayer experience thanks to the Photon Engine developed with Unity Engine in partnership with the Center for Research and Virtual Health Simulation at the University of Limoges.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -33,7 +33,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>C#, Unity, Photon Engine</span>
+          <span>C#, Unity v2021.1, Photon Engine</span>
         </ListItem>
       </List>
       <WorkImage src="/images/works/classvr2.png" alt="classvr" />

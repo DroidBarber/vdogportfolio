@@ -12,6 +12,7 @@ import thumbFindx from '../public/images/works/findx.png'
 import thumbJStrader from '../public/images/works/jstrader.png'
 import thumbAiGen from '../public/images/works/genai.png'
 import thumbFin from '../public/images/works/financeer.png'
+import thumb3d from '../public/images/works/3dshow.png'
 
 
 const Works = () => (
@@ -62,6 +63,11 @@ const Works = () => (
               <Section delay={0.1}>
                   <WorkGridItem id="finance" thumbnail={thumbFin} title="Financeer">
                     Financial App Dashboard with Machine Learning Predictions
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.1}>
+                  <WorkGridItem id="3dshowcase" thumbnail={thumb3d} title="3D Product Showcase">
+                    AI Powered 3D Product showcase website
                   </WorkGridItem>
               </Section>
            </SimpleGrid>

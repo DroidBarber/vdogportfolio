@@ -38,7 +38,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>React, NodeJS, express, Typescript, MongoDB, regression-js, MUI, MUI-data-grid, Redux-Toolkit, ViteJS, fly.io</span>
+          <span>ReactJS, NodeJS, express, Typescript, MongoDB, regression-js, MUI, MUI-data-grid, Redux-Toolkit, ViteJS, fly.io</span>
         </ListItem>
       </List>
 
