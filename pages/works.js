@@ -12,8 +12,8 @@ import thumbFindx from '../public/images/works/findx.png'
 import thumbJStrader from '../public/images/works/jstrader.png'
 import thumbAiGen from '../public/images/works/genai.png'
 import thumbFin from '../public/images/works/financeer.png'
-import thumb3d from '../public/images/works/3dshow.png'
-import thumbtwtr from '../public/images/works/btrtwtr.png'
+import thumb3d from '../public/images/works/3dshowr.png'
+// import thumbtwtr from '../public/images/works/btrtwtr.png'
 
 
 const Works = () => (
@@ -93,11 +93,11 @@ const Works = () => (
                     AI Image Generator made with OpenAI DALL-E model and MERN stack that generates images based on the entered text.
                   </WorkGridItem>
               </Section>
-              <Section delay={0.3}>
+              {/* <Section delay={0.3}>
                   <WorkGridItem id="bettertwtr" thumbnail={thumbtwtr} title="twttr">
                     better Tw*tter Clone
                   </WorkGridItem>
-              </Section>
+              </Section> */}
           </SimpleGrid>
       </Container>
   </Layout>
