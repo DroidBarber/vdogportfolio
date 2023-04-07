@@ -86,7 +86,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <Flex mb={1}>
+            <Flex mr={0.5} mb={1}>
               <IoLogoGithub/>
             </Flex>
             Source
