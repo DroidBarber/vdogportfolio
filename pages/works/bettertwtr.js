@@ -3,7 +3,10 @@ import {
   Badge,
   Link,
   List,
+  Heading,
+  Center,
   ListItem,
+  UnorderedList
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -18,18 +21,25 @@ const Work = () => (
       </Title>
       <P>
         In this project we build and deploy a better Tw*tter clone from scratch with Next 13 as a Frontend Framework, Prisma as an ORM and MongoDB as a database that includes features such as :<br/>
-        <br/>
-        • Authentication system<br/>
-        • Notification system<br/>
-        • Image Upload using Base64 strings<br/>
-        • Prisma ORM with MongoDB<br/>
-        • Responsive Layout<br/>
-        • 1 To Many Relations (User - Post)<br/>
-        • Many To Many Relations (Post - Comment)<br/>
-        • Following functionality<br/>
-        • Comments / Replies<br/>
-        • Likes functionality<br/>
-        • Vercel Deployment<br/>
+
+        <UnorderedList my={4}>
+          <ListItem>Authentication system</ListItem>
+          <ListItem>Notification system</ListItem>
+          <ListItem>Image Upload using Base64 strings</ListItem>
+          <ListItem>Prisma ORM with MongoDB</ListItem>
+          <ListItem>Responsive Layout</ListItem>
+          <ListItem>1 To Many Relations (User - Post)</ListItem>
+          <ListItem>Many To Many Relations (Post - Comment)</ListItem>
+          <ListItem>Following functionality</ListItem>
+          <ListItem>Comments / Replies functionality</ListItem>
+          <ListItem>Likes functionality</ListItem>
+          <ListItem>Vercel Deployment</ListItem>
+        </UnorderedList>
+
+        <Heading as="h4" fontSize={16} my={6}>
+          <Center>⚠️ Warning</Center>
+        </Heading>
+        Note that this project is purely for educational purposes, the censoring implemented is just to avoid any confusion and prevent it from being mistaken as a phishing website.
       </P>
       <List ml={4} my={4}>
         <ListItem>

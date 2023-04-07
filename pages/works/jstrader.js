@@ -25,7 +25,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Link</Meta>
-          <Link href="https://github.com/DroidBarber/javascript-stock-trader">
+          <Link href="https://github.com/DroidBarber/javascript-stock-trader" target="_blank">
             Github Link <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -35,7 +35,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Firebase Functions, Node.JS, Alpaca API, GPT-3</span>
+          <span>Firebase Functions, Node.JS, Alpaca API, puppeteer, GPT-3</span>
         </ListItem>
       </List>
 
