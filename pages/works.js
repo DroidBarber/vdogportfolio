@@ -14,6 +14,7 @@ import thumbAiGen from '../public/images/works/genai.png'
 import thumbFin from '../public/images/works/financeer.png'
 import thumb3d from '../public/images/works/3dshowr.png'
 import thumbtwtr from '../public/images/works/btrtwtrrr.png'
+import thumbprmt from '../public/images/works/prompt.png'
 
 
 const Works = () => (
@@ -69,6 +70,11 @@ const Works = () => (
               <Section delay={0.1}>
                   <WorkGridItem id="3dshowcase" thumbnail={thumb3d} title="3D Product Showcase">
                     AI Powered 3D Product showcase website
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.1}>
+                  <WorkGridItem id="proomptz" thumbnail={thumbprmt} title="Proomptz">
+                    Proomptz is an open-source AI prompting tool.
                   </WorkGridItem>
               </Section>
            </SimpleGrid>
