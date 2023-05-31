@@ -72,11 +72,6 @@ const Works = () => (
                     AI Powered 3D Product showcase website
                   </WorkGridItem>
               </Section>
-              <Section delay={0.1}>
-                  <WorkGridItem id="proomptz" thumbnail={thumbprmt} title="Proomptz">
-                    Proomptz is an open-source AI prompting tool.
-                  </WorkGridItem>
-              </Section>
            </SimpleGrid>
 
 
@@ -102,6 +97,11 @@ const Works = () => (
               <Section delay={0.3}>
                   <WorkGridItem id="bettertwtr" thumbnail={thumbtwtr} title="Better Tw*tter">
                     better Tw*tter Clone
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.3}>
+                  <WorkGridItem id="proomptz" thumbnail={thumbprmt} title="Proomptz">
+                    Proomptz is an open-source AI prompting tool.
                   </WorkGridItem>
               </Section>
           </SimpleGrid>

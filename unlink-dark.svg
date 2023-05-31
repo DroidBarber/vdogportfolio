@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="icons/24x24/unlink-24" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(-0.171209, -0.041499)">
+            <rect id="Bg" fill="#D8D8D8" opacity="0" x="0.171208982" y="0.0414989581" width="24" height="24"></rect>
+            <g id="Chain" transform="translate(12.171209, 12.171209) rotate(45.000000) translate(-12.171209, -12.171209) translate(4.088230, 3.041499)" stroke="rgba(24,45,63, .8)" stroke-linecap="round" stroke-width="1.5">
+                <path d="M10.0843556,0 L11.0829788,1.25942005 L11.0829788,4.25942005 C11.0829788,5.9162743 9.73983304,7.25942005 8.08297879,7.25942005 C6.42612454,7.25942005 5.08297879,5.9162743 5.08297879,4.25942005 L5.08297879,1.25942005 L6.10703835,0" id="Path" stroke-linejoin="round" transform="translate(8.082979, 3.629710) scale(1, -1) translate(-8.082979, -3.629710) "></path>
+                <path d="M10.0843556,11 L11.0829788,12.25942 L11.0829788,15.25942 C11.0829788,16.9162743 9.73983304,18.25942 8.08297879,18.25942 C6.42612454,18.25942 5.08297879,16.9162743 5.08297879,15.25942 L5.08297879,12.25942 L6.10703835,11" id="Path" stroke-linejoin="round"></path>
+                <g id="Group" transform="translate(14.000000, 6.132720)">
+                    <line x1="0.0957712411" y1="0.601068705" x2="2.07018634" y2="0.875873351" id="Path-2" transform="translate(1.082979, 0.738471) scale(-1, 1) rotate(15.000000) translate(-1.082979, -0.738471) "></line>
+                    <line x1="0.0957712411" y1="4.6010687" x2="2.07018634" y2="4.87587335" id="Path-2" transform="translate(1.082979, 4.738471) scale(-1, -1) rotate(15.000000) translate(-1.082979, -4.738471) "></line>
+                </g>
+                <g id="Group" transform="translate(1.082979, 8.871191) scale(-1, 1) translate(-1.082979, -8.871191) translate(0.000000, 6.132720)">
+                    <line x1="0.0957712411" y1="0.601068705" x2="2.07018634" y2="0.875873351" id="Path-2" transform="translate(1.082979, 0.738471) scale(-1, 1) rotate(15.000000) translate(-1.082979, -0.738471) "></line>
+                    <line x1="0.0957712411" y1="4.6010687" x2="2.07018634" y2="4.87587335" id="Path-2" transform="translate(1.082979, 4.738471) scale(-1, -1) rotate(15.000000) translate(-1.082979, -4.738471) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
