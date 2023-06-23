@@ -13,8 +13,9 @@ import thumbJStrader from '../public/images/works/jstrader.png'
 import thumbAiGen from '../public/images/works/genai.png'
 import thumbFin from '../public/images/works/financeer.png'
 import thumb3d from '../public/images/works/3dshowr.png'
-import thumbtwtr from '../public/images/works/btrtwtrrr.png'
+// import thumbtwtr from '../public/images/works/btrtwtrrr.png'
 import thumbprmt from '../public/images/works/prompt.png'
+import thumbbrd from '../public/images/works/breaddit.png'
 
 
 const Works = () => (
@@ -90,20 +91,25 @@ const Works = () => (
                   </WorkGridItem>
               </Section>
               <Section delay={0.3}>
+                  <WorkGridItem id="breaddit" thumbnail={thumbbrd} title="Breaddit">
+                    Bread reddit
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.3}>
                   <WorkGridItem id="aigen" thumbnail={thumbAiGen} title="DALL-EE">
                     AI Image Generator made with OpenAI DALL-E model and MERN stack that generates images based on the entered text.
                   </WorkGridItem>
               </Section>
               <Section delay={0.3}>
+                  <WorkGridItem id="proomptz" thumbnail={thumbprmt} title="Proomptz">
+                    Proomptz is an open-source AI prompting sharing tool.
+                  </WorkGridItem>
+              </Section>
+              {/* <Section delay={0.3}>
                   <WorkGridItem id="bettertwtr" thumbnail={thumbtwtr} title="Better Tw*tter">
                     better Tw*tter Clone
                   </WorkGridItem>
-              </Section>
-              <Section delay={0.3}>
-                  <WorkGridItem id="proomptz" thumbnail={thumbprmt} title="Proomptz">
-                    Proomptz is an open-source AI prompting tool.
-                  </WorkGridItem>
-              </Section>
+              </Section> */}
           </SimpleGrid>
       </Container>
   </Layout>
