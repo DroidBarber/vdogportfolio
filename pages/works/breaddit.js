@@ -32,7 +32,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href='https://breaddit-ten.vercel.app/' target='_blank'>
+          <Link href='https://breadditt.vercel.app/' target='_blank'>
             Breaddit <ExternalLinkIcon mx="2"/>
           </Link>
         </ListItem>
