@@ -4,7 +4,6 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbOculus from '../public/images/works/oculus.jpg'
-import thumbKrypt from '../public/images/works/krypt.jpg'
 import thumbCvid from '../public/images/works/cvid.jpg'
 import thumbCrwd from '../public/images/works/crowdfund.png'
 import thumbKom from '../public/images/works/magic.png'
@@ -16,6 +15,7 @@ import thumb3d from '../public/images/works/3dshowr.png'
 // import thumbtwtr from '../public/images/works/btrtwtrrr.png'
 import thumbprmt from '../public/images/works/prompt.png'
 import thumbbrd from '../public/images/works/breaddit.png'
+import thumbjtn from '../public/images/works/jotion.png'
 
 
 const Works = () => (
@@ -32,11 +32,12 @@ const Works = () => (
                </Section>
                <Section>
                    <WorkGridItem
-                     id="krypt"
-                     title="Krypt"
-                     thumbnail={thumbKrypt}
+                     id="jotion"
+                     title="Jotion"
+                     placeholder="blur"
+                     thumbnail={thumbjtn}
                    >
-                      Blockchain Web 3.0 App built with metamask pairing and a smart contract written with solidity on the Ethereum   network
+                      Jotion is a free productivity centered connected workspace for docs & projects
                   </WorkGridItem>
               </Section>
               <Section delay={0.1}>
