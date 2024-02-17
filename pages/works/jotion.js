@@ -37,6 +37,12 @@ const Work = () => (
           </Link>
         </ListItem>
         <ListItem>
+          <Meta>Github Link</Meta>
+          <Link href="https://github.com/DroidBarber/jotion" target="_blank">
+            Github <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
           <Meta>Platform</Meta>
           <span>Web</span>
         </ListItem>

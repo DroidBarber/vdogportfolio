@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoLinkedin, IoLogoGithub, IoLogoTwitter, IoLogoBehance } from 'react-icons/io5'
+import { IoLogoLinkedin, IoLogoGithub, IoLogoBehance } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -93,22 +93,19 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>1998</BioYear>
-          Born in Morocco.
+          Born.
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Completed preparatory classes  in graduate school of computer sciences and engineering
+          Completed preparatory classes in graduate school of computer sciences and engineering.
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Started Master&apos;s program at EPITECH - European Institute of Technology
+          Started Master&apos;s program at EPITECH - European Institute of Technology and joined Weborama as a Frontend developer.
         </BioSection>
         <BioSection>
-          <BioYear>2021 to present</BioYear>
-          Frontend Developer at{' '}
-           <Link href="https://weborama.com/en/" target="_blank">
-            Weborama
-           </Link> (Paris, France)
+          <BioYear>2023</BioYear>
+          Looking for new opportunities.
         </BioSection>
       </Section>
 
@@ -150,17 +147,6 @@ const Home = () => (
                 leftIcon={<IoLogoLinkedin />}
               >
                 LinkedIn
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/GLOBTECHY" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                Twitter
               </Button>
             </Link>
           </ListItem>

@@ -7,7 +7,6 @@ import thumbOculus from '../public/images/works/oculus.jpg'
 import thumbCvid from '../public/images/works/cvid.jpg'
 import thumbCrwd from '../public/images/works/crowdfund.png'
 import thumbKom from '../public/images/works/magic.png'
-import thumbFindx from '../public/images/works/findx.png'
 import thumbJStrader from '../public/images/works/jstrader.png'
 import thumbAiGen from '../public/images/works/genai.png'
 import thumbFin from '../public/images/works/financeer.png'
@@ -15,6 +14,7 @@ import thumb3d from '../public/images/works/3dshowr.png'
 import thumbprmt from '../public/images/works/prompt.png'
 import thumbbrd from '../public/images/works/breaddit.png'
 import thumbjtn from '../public/images/works/jotion.png'
+import thumbtsk from '../public/images/works/taskify.png'
 
 
 const Works = () => (
@@ -30,37 +30,37 @@ const Works = () => (
                    </WorkGridItem>
                </Section>
                <Section>
-                   <WorkGridItem
-                     id="jotion"
-                     title="Jotion"
-                     placeholder="blur"
-                     thumbnail={thumbjtn}
-                   >
-                      Jotion is a free productivity centered connected workspace for docs & projects
-                  </WorkGridItem>
-              </Section>
-              <Section delay={0.1}>
-                  <WorkGridItem id="findx" thumbnail={thumbFindx} title="FindX">
-                    Search engine app built with React.JS and TailwindCSS
-                  </WorkGridItem>
-              </Section>
-              <Section delay={0.1}>
-                  <WorkGridItem id="jstrader" thumbnail={thumbJStrader} title="Trade Stocks with JS">
-                    Trade stocks automatically with JavaScript code using Alpaca and GPT-3
-                  </WorkGridItem>
-              </Section>
-              <Section delay={0.1}>
                   <WorkGridItem
-                     id="covid19"
-                     title="covid-tracker"
-                     thumbnail={thumbCvid}
-                   >
-                      Simple Covid Tracker App built with Vue.js & Tailwind powered by covid19api
-                   </WorkGridItem>
-                    </Section>
+                    id="jotion"
+                    title="Jotion"
+                    placeholder="blur"
+                    thumbnail={thumbjtn}
+                  >
+                    Jotion is a productivity centered connected workspace for docs & projects
+                </WorkGridItem>
+              </Section>
+              <Section delay={0.1}>
+                <WorkGridItem id="taskify" thumbnail={thumbtsk} title="Taskify">
+                  Taskify is a kanban-style, list-making focused application
+                </WorkGridItem>
+              </Section>
+              <Section delay={0.1}>
+                <WorkGridItem id="jstrader" thumbnail={thumbJStrader} title="Trade Stocks with JS">
+                  Trade stocks automatically with JavaScript code using Alpaca and GPT-3
+                </WorkGridItem>
+              </Section>
+              <Section delay={0.1}>
+                <WorkGridItem
+                  id="covid19"
+                  title="covid-tracker"
+                  thumbnail={thumbCvid}
+                >
+                  Simple Covid Tracker App
+                </WorkGridItem>
+              </Section>
               <Section delay={0.1}>
                   <WorkGridItem id="crowdfund" thumbnail={thumbCrwd} title="CrowdFunder">
-                    Blockchain Crowdfunding Platform made with ReactJS and Thirdweb
+                    Blockchain Crowdfunding Platform
                   </WorkGridItem>
               </Section>
               <Section delay={0.1}>
