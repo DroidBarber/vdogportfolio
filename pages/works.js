@@ -4,7 +4,6 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbOculus from '../public/images/works/oculus.jpg'
-import thumbCvid from '../public/images/works/cvid.jpg'
 import thumbCrwd from '../public/images/works/crowdfund.png'
 import thumbKom from '../public/images/works/magic.png'
 import thumbJStrader from '../public/images/works/jstrader.png'
@@ -13,8 +12,9 @@ import thumbFin from '../public/images/works/financeer.png'
 import thumb3d from '../public/images/works/3dshowr.png'
 import thumbprmt from '../public/images/works/prompt.png'
 import thumbbrd from '../public/images/works/breaddit.png'
-import thumbjtn from '../public/images/works/jotion.png'
 import thumbtsk from '../public/images/works/taskify.png'
+import thumbjnt from '../public/images/works/jotion0.png'
+import thumbfig from '../public/images/works/figpro.png'
 
 
 const Works = () => (
@@ -30,12 +30,7 @@ const Works = () => (
                    </WorkGridItem>
                </Section>
                <Section>
-                  <WorkGridItem
-                    id="jotion"
-                    title="Jotion"
-                    placeholder="blur"
-                    thumbnail={thumbjtn}
-                  >
+                  <WorkGridItem id="jotion" title="Jotion" thumbnail={thumbjnt}>
                     Jotion is a productivity centered connected workspace for docs & projects
                 </WorkGridItem>
               </Section>
@@ -50,12 +45,8 @@ const Works = () => (
                 </WorkGridItem>
               </Section>
               <Section delay={0.1}>
-                <WorkGridItem
-                  id="covid19"
-                  title="covid-tracker"
-                  thumbnail={thumbCvid}
-                >
-                  Simple Covid Tracker App
+                <WorkGridItem id="figpro" thumbnail={thumbfig} title="FigPro">
+                  FigPro is a minimalist collaborative web app for interface design
                 </WorkGridItem>
               </Section>
               <Section delay={0.1}>
