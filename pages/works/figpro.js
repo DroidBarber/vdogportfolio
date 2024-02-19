@@ -21,10 +21,11 @@ const Work = () => (
         FigPro is an intuitive interface design tool, focused on collaboration and creativity to help people create, test and prototype designs for websites, mobile apps, and other digital products with complete  features such as real time collaboration between users, drawing tools(Layers and Groups), interactive componens(editing and styling), reactions and Customization.
         <UnorderedList my={4}>
           <ListItem>Freeform Drawing ✍️</ListItem>
-          <ListItem>Multi Cursors, Cursor Chat, and Reactions 🖱️</ListItem>
+          <ListItem>Real-time collaboration 🤝</ListItem>
+          <ListItem>Multi Cursors, Cursor Chat & Reactions 🖱️</ListItem>
           <ListItem>Comment Bubbles 💬</ListItem>
           <ListItem>Layers and groups 🌫️</ListItem>
-          <ListItem>Uploading Images 📤</ListItem>
+          <ListItem>Image Upload 📤</ListItem>
           <ListItem>Keyboard Shortcuts ⌨️</ListItem>
           <ListItem>Undo/Redo ↩️</ListItem>
           <ListItem>Deleting, Scaling, Moving, Clearing, Exporting Canvas 🎨</ListItem>
