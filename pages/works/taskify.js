@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="Taskify">
     <Container>
       <Title>
-        Taskify <Badge>2024</Badge>
+        Taskify <Badge>2023</Badge>
       </Title>
       <P>
         Taskefy is a versatile project management web application built to help teams organize tasks, streamline workflows. With customizable boards, cards, and lists, Taskefy adapts to unique project needs, with both a free and a paid premium options offering unlimited boards.

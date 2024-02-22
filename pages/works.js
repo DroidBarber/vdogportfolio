@@ -15,7 +15,7 @@ import thumbbrd from '../public/images/works/breaddit.png'
 import thumbtsk from '../public/images/works/taskify.png'
 import thumbjnt from '../public/images/works/jotion0.png'
 import thumbfig from '../public/images/works/figpro.png'
-
+import thumbmor from '../public/images/works/mori.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -25,28 +25,28 @@ const Works = () => (
            </Heading>
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
                <Section>
-                   <WorkGridItem id="classVR" title="classVR" thumbnail={thumbOculus}>
-                   VR project for the Oculus Quest developed in partnership with the Research Center for Virtual Health Simulation
-                   </WorkGridItem>
+                  <WorkGridItem id="classVR" title="classVR" thumbnail={thumbOculus}>
+                    VR project for the Oculus Quest developed in partnership with the Research Center for Virtual Health Simulation
+                  </WorkGridItem>
                </Section>
                <Section>
                   <WorkGridItem id="jotion" title="Jotion" thumbnail={thumbjnt}>
-                    Jotion is a productivity centered connected workspace for docs & projects
-                </WorkGridItem>
+                    productivity centered connected workspace for docs & projects
+                  </WorkGridItem>
               </Section>
               <Section delay={0.1}>
                 <WorkGridItem id="taskify" thumbnail={thumbtsk} title="Taskify">
-                  Taskify is a kanban-style, list-making focused application
+                  Kanban-style, list-making collaborative application
                 </WorkGridItem>
               </Section>
               <Section delay={0.1}>
                 <WorkGridItem id="jstrader" thumbnail={thumbJStrader} title="Trade Stocks with JS">
-                  Trade stocks automatically with JavaScript code using Alpaca and GPT-3
+                  Trade stocks automatically with JS code using Alpaca and GPT-3
                 </WorkGridItem>
               </Section>
               <Section delay={0.1}>
                 <WorkGridItem id="figpro" thumbnail={thumbfig} title="FigPro">
-                  FigPro is a minimalist collaborative web app for interface design
+                  Minimalist collaborative web app for interface design
                 </WorkGridItem>
               </Section>
               <Section delay={0.1}>
@@ -62,6 +62,11 @@ const Works = () => (
               <Section delay={0.1}>
                   <WorkGridItem id="3dshowcase" thumbnail={thumb3d} title="3D Product Showcase">
                     AI Powered 3D Product showcase website
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.1}>
+                  <WorkGridItem id="mori" thumbnail={thumbmor} title="Mori">
+                    Visual workspace for brainstorming and project planning
                   </WorkGridItem>
               </Section>
            </SimpleGrid>

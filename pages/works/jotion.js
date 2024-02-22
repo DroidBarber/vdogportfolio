@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="Jotion">
     <Container>
       <Title>
-        Jotion <Badge>2024</Badge>
+        Jotion <Badge>2023</Badge>
       </Title>
       <P>
         This project aims to build a fully connected productivity-focused workspace solution for document management and note-taking, facilitating seamless organization and collaboration with all the essential features such as renaming in real time, adding icons, adding and replacing banner images, archiving and deleting forever and finally publishing the documents via link share.
