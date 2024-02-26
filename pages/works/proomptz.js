@@ -17,7 +17,7 @@ const Work = () => (
         Proomptz <Badge>2023</Badge>
       </Title>
       <P>
-        Proomptz is a contemporary open-source AI prompting tool that employs the latest version of NextJS 13.4, enabling it to leverage the most cutting-edge features of this technology such as the /App folder structure, Server Components and Serverless Route Handlers, where you can create and share creative prompts to the community, complete with Search feature through tags and usernames, Next Authentication and the option to edit or delete prompts.
+        Proomptz is a an open-source AI prompting tool that employs the latest version of NextJS 13.4, enabling it to leverage the most cutting-edge features of this technology such as the /App folder structure, Server Components and Serverless Route Handlers, where we can create and share creative prompts to a community, complete with Search feature through tags and usernames, Next Authentication and the option to edit or delete prompts.
       </P>
       <List ml={4} my={4}>
         <ListItem>

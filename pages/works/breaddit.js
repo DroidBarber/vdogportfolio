@@ -18,15 +18,15 @@ const Work = () => (
         Breaddit <Badge>2023</Badge>
       </Title>
       <P>
-        Introducing Breaddit a Next 13 app where registered users submit content such as links, posts, images, etc which are then voted up or down by other members, with features such as : <br/>
+        Breaddit is a Next 13 app where registered users submit content such as links, posts, images, etc which are then voted up or down by other members, with features such as : <br/>
         <UnorderedList my={4}>
-          <ListItem>Infinite scrolling for dynamically loading posts</ListItem>
-          <ListItem>Authentication using NextAuth</ListItem>
+          <ListItem>Infinite scrolling for dynamic posts loading</ListItem>
+          <ListItem>Authentication with NextAuth</ListItem>
           <ListItem>Custom feeds for authenticated users</ListItem>
           <ListItem>Advanced caching using Redis Upstash</ListItem>
           <ListItem>Data fetching using React-Query</ListItem>
           <ListItem>Image uploads & link previews</ListItem>
-          <ListItem>Full comment functionality with nested replies</ListItem>
+          <ListItem>Comment functionality with nested replies</ListItem>
         </UnorderedList>
       </P>
       <List ml={4} my={4}>

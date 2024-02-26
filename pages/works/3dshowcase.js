@@ -17,7 +17,7 @@ const Work = () => (
         3D Showcase <Badge>2023</Badge>
       </Title>
       <P>
-        Many large corporations already use 3D graphics to showcase their products, in this project we use ReactJS to build and deploy a Web Application using ThreeJS thanks to React Three Fiber which is a React renderer for ThreeJS and Framer-Motion, a popular animation library for react, that you can use to load, create and customize stunning 3D models, the example used in the demo is a Shirt model that comes with 3 features, custom coloring, image upload support and finally the possibility to prompt OpenAI famous Image generation Engine DALL-E and display the results on the model.
+        Many large corporations already use 3D graphics to showcase their products, this project aims to build and deploy a Web Application using ThreeJS thanks to React Three Fiber which is a React renderer for ThreeJS and Framer-Motion, a popular animation library for react, that we use to load, create and customize stunning 3D models, the example used in the demo is a Shirt model that comes with 3 features, custom coloring, image upload and finally the possibility to prompt OpenAI Image generation Engine DALL-E and display the results on the model.
       </P>
       <List ml={4} my={4}>
         <ListItem>

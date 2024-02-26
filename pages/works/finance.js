@@ -17,7 +17,7 @@ const Work = () => (
         Financeer <Badge>2023</Badge>
       </Title>
       <P>
-        Financeer is a complete Fullstack finance dashboard application that consists of multiple charts and tables that businesses can use to display and visualize key performance indicators to keep tracks of their profits and expenses, and with machine learning and linear regression make predictions on their revenue for the future
+        Financeer is a complete finance dashboard application that consists of multiple charts and tables that businesses can use to display and visualize key performance indicators to keep tracks of their profits and expenses, and with the magic of machine learning and linear regression make predictions on their revenue for the future
       </P>
       <List ml={4} my={4}>
         <ListItem>

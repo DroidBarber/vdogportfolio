@@ -17,7 +17,7 @@ const Work = () => (
         CrowdFunder <Badge>2022</Badge>
       </Title>
       <P>
-        a Crowdfunding platform connected to the blockchain, with metamask pairing and smart contracts interaction that you can use to easily create, view, and donate to crowdfunding campaigns directly through the blockchain
+        a Online Crowdfunding platform connected to the Eth blockchain, with metamask pairing and smart contracts interaction that you can use to easily create, view, and donate to crowdfunding campaigns directly through the blockchain
       </P>
       <List ml={4} my={4}>
         <ListItem>
