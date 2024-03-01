@@ -18,7 +18,7 @@ const Work = () => (
         Mori <Badge>2024</Badge>
       </Title>
       <P>
-        Miro is a dynamic visual workspace designed for brainstorming, project planning, and collaborative ideation utilizing a real-time whiteboard format. Miro is packed with features, allowing users to create boards within their organization and seamlessly invite other members to join in the creative process. 
+        Mori is a dynamic visual workspace designed for brainstorming, project planning, and collaborative ideation utilizing a real-time whiteboard format. Mori is packed with features, allowing users to create boards within their organization and seamlessly invite other members to join in the creative process. 
         <UnorderedList my={4}>
             <ListItem>Miro-style whiteboard ⬜</ListItem>
             <ListItem>Text, Shapes, Notes & Pencil Toolbar 🧰</ListItem>
