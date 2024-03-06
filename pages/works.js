@@ -93,7 +93,7 @@ const Works = () => (
               </Section>
               <Section delay={0.3}>
                   <WorkGridItem id="aigen" thumbnail={thumbAiGen} title="DALL-EE">
-                    AI Image Generator made with OpenAI DALL-E model and MERN stack that generates images based on the entered text.
+                    AI Image Generator made with OpenAI DALL-E model that generates images based on the entered text.
                   </WorkGridItem>
               </Section>
               <Section delay={0.3}>
