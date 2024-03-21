@@ -16,6 +16,7 @@ import thumbtsk from '../public/images/works/taskify.png'
 import thumbjnt from '../public/images/works/jotion0.png'
 import thumbfig from '../public/images/works/figpro.png'
 import thumbmor from '../public/images/works/mori.png'
+import thumblingo from '../public/images/works/lingo0.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -67,6 +68,11 @@ const Works = () => (
               <Section delay={0.1}>
                   <WorkGridItem id="mori" thumbnail={thumbmor} title="Mori">
                     Visual workspace for brainstorming and project planning
+                  </WorkGridItem>
+              </Section>
+              <Section delay={0.1}>
+                  <WorkGridItem id="lingo" thumbnail={thumblingo} title="Lingo">
+                    Interactive language learning SaaS platform
                   </WorkGridItem>
               </Section>
            </SimpleGrid>
