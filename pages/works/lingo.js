@@ -55,7 +55,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NextJS 14, Typescript, TailwindCSS, Clerk, NeonDB, shadcn-ui, Drizzle, React-Admin, Stripe </span>
+          <span>NextJS 14, Typescript, TailwindCSS, Clerk, NeonDB, shadcn-ui, Drizzle ORM, React-Admin, Stripe </span>
         </ListItem>
       </List>
 
@@ -64,10 +64,11 @@ const Work = () => (
       <WorkImage src="/images/works/lingoc.png" alt="lingo"/>
       <WorkImage src="/images/works/lingod.png" alt="lingo"/>
       <WorkImage src="/images/works/lingoh.png" alt="lingo"/>
-      <WorkImage src="/images/works/lingoe.png" alt="lingo"/>
       <WorkImage src="/images/works/lingoj.png" alt="lingo"/>
+      <WorkImage src="/images/works/lingoe.png" alt="lingo"/>
       <WorkImage src="/images/works/lingox.png" alt="lingo"/>
       <WorkImage src="/images/works/lingof.png" alt="lingo"/>
+      <WorkImage src="/images/works/lingoz.png" alt="lingo"/>
       <WorkImage src="/images/works/lingog.png" alt="lingo"/>
     </Container>
   </Layout>
