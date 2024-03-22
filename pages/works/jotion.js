@@ -21,9 +21,12 @@ const Work = () => (
         This project aims to build a fully connected productivity-focused workspace solution for document management and note-taking, facilitating seamless organization and collaboration with all the essential features such as renaming in real time, adding icons, adding and replacing banner images, archiving and deleting forever and finally publishing the documents via link share.
         <UnorderedList my={4}>
           <ListItem>Notion-style editor 📝</ListItem>
-          <ListItem>Light and Dark mode 🌓</ListItem>
-          <ListItem>Keyboard Commands ⌨️</ListItem>
           <ListItem>Infinite children documents 🌲</ListItem>
+          <ListItem>Cover images 🌆</ListItem>
+          <ListItem>Document Trash 🗑️</ListItem>
+          <ListItem>Document Icons ⭐</ListItem>
+          <ListItem>Document Publishing 📰</ListItem>
+          <ListItem>Light and Dark mode 🌓</ListItem>
           <ListItem>Clerk Authentication 🔐</ListItem>
           <ListItem>Convex Real-time database 🔗</ListItem>
           <ListItem>EdgeStore Upload 💾</ListItem>

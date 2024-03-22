@@ -101,7 +101,9 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Started Master&apos;s program at EPITECH - European Institute of Technology and joined Weborama as a Frontend developer.
+          Started Master&apos;s program at EPITECH - European Institute of Technology and joined {' '}
+          <Link href="https://weborama.com/en/" target="_blank">Weborama </Link>
+          as a Frontend developer.
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>

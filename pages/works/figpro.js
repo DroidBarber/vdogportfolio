@@ -18,7 +18,7 @@ const Work = () => (
         FigPro <Badge>2023</Badge>
       </Title>
       <P>
-        FigPro is an intuitive interface design tool, focused on collaboration and creativity to help people create, test and prototype designs for websites, mobile apps, and other digital products with complete  features such as real time collaboration between users, drawing tools(Layers and Groups), interactive componens(editing and styling), reactions and Customization.
+        FigPro is an intuitive interface design tool, focused on collaboration and creativity to help people create, test and prototype designs for websites, mobile apps, and other digital products with complete  features such as real time collaboration between users, drawing tools(Layers and Groups), interactive components(editing and styling), reactions and Customization.
         <UnorderedList my={4}>
           <ListItem>Freeform Drawing ✍️</ListItem>
           <ListItem>Real-time collaboration 🤝</ListItem>
